@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お菓子大戦争</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>きのこの山 or たけのこの里</h1>
+        <button class="vote-btn" onclick="vote('きのこの山', 1)">きのこの山</button>
+        <button class="vote-btn" onclick="vote('たけのこの里', 1)">たけのこの里</button>
+
+        <div class="results">
+            <h3>現在の投票結果</h3>
+            <p id="results1">Loading results...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>ポッキー or トッポ</h1>
+        <button class="vote-btn" onclick="vote('ポッキー', 2)">ポッキー</button>
+        <button class="vote-btn" onclick="vote('トッポ', 2)">トッポ</button>
+
+        <div class="results">
+            <h3>現在の投票結果</h3>
+            <p id="results2">Loading results...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>こしあん or つぶあん</h1>
+        <button class="vote-btn" onclick="vote('こしあん', 3)">こしあん</button>
+        <button class="vote-btn" onclick="vote('つぶあん', 3)">つぶあん</button>
+
+        <div class="results">
+            <h3>現在の投票結果</h3>
+            <p id="results3">Loading results...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

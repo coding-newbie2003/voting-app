@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #dcf7e2;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.vote-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #03cc2f;
+    color: white;
+}
+
+.vote-btn:hover {
+    background-color: #008f00;
+}
+
+.results {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
