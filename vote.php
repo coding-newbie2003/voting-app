@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $topic_id = $_POST['topic_id'];
 
 
-    $conn = new mysqli('sql110.infinityfree.com', 'if0_37748906', 'Aomegane1106', 'if0_37748906_vote_app');
+    $conn = new mysqli('', '', '', '');
 
     // 接続時にUTF-8を設定
     $conn->set_charset('utf8mb4');
